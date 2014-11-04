@@ -27,7 +27,7 @@
 @property (nonatomic, strong) UIColor *highlightedTextColor;
 @property (nonatomic, assign) CGFloat interitemSpacing;
 @property (nonatomic, assign) CGFloat fisheyeFactor; // 0...1; slight value recommended such as 0.0001
-@property (nonatomic, assign, readonly) NSUInteger selectedItem;
+@property (nonatomic, assign) NSUInteger selectedItem;
 
 - (void)reloadData;
 - (void)scrollToItem:(NSUInteger)item animated:(BOOL)animated;

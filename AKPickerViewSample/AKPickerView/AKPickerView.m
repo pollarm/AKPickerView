@@ -21,7 +21,7 @@
 
 @interface AKPickerView () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 @property (nonatomic, strong) UICollectionView *collectionView;
-@property (nonatomic, assign) NSUInteger selectedItem;
+//@property (nonatomic, assign) NSUInteger selectedItem;
 - (CGFloat)offsetForItem:(NSUInteger)item;
 - (void)didEndScrolling;
 - (CGSize)sizeForString:(NSString *)string;
